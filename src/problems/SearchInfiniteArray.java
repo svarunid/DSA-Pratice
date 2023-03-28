@@ -4,10 +4,10 @@ public class SearchInfiniteArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-        System.out.println(searchInfininteArray(arr, 8));
+        System.out.println(searchInfiniteArray(arr, 8));
     }
 
-    private static int searchInfininteArray(int[] arr, int target){
+    private static int searchInfiniteArray(int[] arr, int target){
         int start = 0;
         int end = 1;
 
