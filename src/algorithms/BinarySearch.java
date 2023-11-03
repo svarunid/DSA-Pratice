@@ -5,6 +5,7 @@ public class BinarySearch {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         System.out.println(binarySearch(arr, 8));
+        System.out.println(binarySearch(arr, 9));
     }
 
     private static boolean binarySearch(int[] arr, int target) {
@@ -19,8 +20,10 @@ public class BinarySearch {
         }
         return false;
     }
-
-    public static boolean binarySearch(int[] arr, int target, int start, int end){
+    /*
+    Recursive implementation of binary search.
+     */
+    private static boolean binarySearch(int[] arr, int target, int start, int end) {
         int middle = start + (end - start) / 2;
         if (arr[middle] == target) return true;
         else if (start == end) return false;
