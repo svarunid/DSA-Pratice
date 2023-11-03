@@ -2,7 +2,7 @@ package assignments;
 
 public class Sqrt {
     public static void main(String[] args) {
-        double x = Math.pow(14, 2);
+        double x = 80;
     }
 
     private static int sqrtRound(double x){
